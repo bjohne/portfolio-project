@@ -1,8 +1,29 @@
+:root {
+  --primary-color: #e1f6f4;
+  --secondary-color: #07588a;
+}
+
 h1 {
-  color: blueviolet;
   font-family: "Spectral";
+  font-size: 96px;
+}
+h3 {
+  font-family: "Poppins";
+  font-size: 36px;
+  font-weight: bold;
 }
 p {
   font-size: 20px;
   font-family: "Poppins";
+}
+button {
+  background-color: var(--secondary-color);
+  padding: 12px 26px;
+  border-radius: 4px;
+  color: antiquewhite;
+}
+.hero {
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: 160px 0;
 }
