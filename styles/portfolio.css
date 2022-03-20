@@ -1,11 +1,11 @@
 :root {
-  --primary-color: #e1f6f4;
-  --secondary-color: #07588a;
+  --primary-color: #9dd5cb;
+  --secondary-color: #013c4d;
   --button-writing-color: antiquewhite;
-  --paragraph-color: rgba(0, 0, 0, 0.3);
-  --button-hover-background: rgba(7, 88, 138, 0.8);
-  --fourth-color: #6ac1b8;
-  --third-color: #bfe9db;
+  --paragraph-color: rgba(0, 0, 0, 0.7);
+  --button-hover-background: rgba(0, 87, 146, 0.8);
+  --fourth-color: #ed3833;
+  --third-color: #60204b;
   --heading-font-family: "Playfair";
   --default-font-family: "Poppins";
 }
