@@ -3,12 +3,13 @@
   --secondary-color: #013c4d;
   --button-writing-color: antiquewhite;
   --paragraph-color: rgba(0, 0, 0, 0.7);
-  --button-hover-background: rgba(0, 87, 146, 0.8);
-  --fourth-color: #ed3833;
+  --button-hover-background: rgba(1, 60, 77, 0.6);
+  --fourth-color:rgba(157, 213, 203, 0.5)
   --third-color: #60204b;
   --heading-font-family: "Playfair";
   --default-font-family: "Poppins";
 }
+
 h1,
 h2,
 h3,
@@ -39,6 +40,7 @@ p .description {
   line-height: 30px;
   color: var(--paragraph-color);
 }
+
 
 .btn-branding {
   background-color: var(--secondary-color);
