@@ -102,9 +102,12 @@ p .description {
 }
 
 .img-about {
-  padding: 0 60px 30px;
-  border-radius: 4px;
+  padding: 0 30px;
+  max-width: 60%;
+  height: auto;
+  margin: 0 auto;
 }
+
 @media (max-width: 992px) {
   h1 {
     font-size: 42px;
@@ -138,11 +141,9 @@ p .description {
   .about-paragraph h1 {
     font-size: 40px;
   }
-}
-
-@media (max-width: 768px) {
   .img-about {
-    margin-top: 30px;
-    padding: 0 50px 50px;
+    max-width: 80%;
+    height: auto;
+    margin-top: 10px;
   }
 }
