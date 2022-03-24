@@ -89,13 +89,13 @@ p .description {
   padding: 60px 20px;
 }
 
-.about-paragraph {
+.content-container {
   margin-top: 180px;
 }
-.about-paragraph h1 {
+.content-container h1 {
   font-size: 52px;
 }
-.about-paragraph h2 {
+.content-container h2 {
   font-family: var(--default-font-family);
   font-size: 18px;
   font-weight: bold;
@@ -106,6 +106,14 @@ p .description {
   max-width: 60%;
   height: auto;
   margin: 0 auto;
+}
+.img-project {
+  margin: 40px;
+  border: 20px solid var(--primary-color);
+  max-width: 80%;
+}
+a {
+  text-decoration: none;
 }
 
 @media (max-width: 992px) {
@@ -134,11 +142,11 @@ p .description {
     font-size: 18px;
     line-height: 27px;
   }
-  .about-paragraph {
+  .content-container {
     margin-top: 90px;
     text-align: center;
   }
-  .about-paragraph h1 {
+  .content-container h1 {
     font-size: 40px;
   }
   .img-about {
