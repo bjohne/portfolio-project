@@ -146,6 +146,7 @@ p .description {
 .img-project {
   margin: 40px;
   border: 20px solid var(--primary-color);
+  border-radius: 10px;
   max-width: 80%;
 }
 footer .contact-icons a {
