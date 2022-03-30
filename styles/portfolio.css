@@ -178,6 +178,9 @@ footer .container {
 footer p {
   margin: 0;
 }
+.open-source {
+  margin-bottom: 30px;
+}
 .open-source a {
   color: var(--primary-color);
 }
