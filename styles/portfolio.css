@@ -162,6 +162,7 @@ p .description {
   border: 15px solid var(--primary-color);
   border-radius: 10px;
   max-width: 80%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 .email-link {
   color: var(--fourth-color);
