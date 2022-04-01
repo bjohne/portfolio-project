@@ -85,9 +85,7 @@ p .description {
   background-color: var(--primary-color);
   border-radius: 50%;
 }
-.initials a:hover {
-  color: var(--paragraph-color);
-}
+
 .btn-branding {
   background-color: var(--secondary-color);
   padding: 18px 30px;
@@ -156,7 +154,7 @@ p .description {
 }
 .img-project {
   margin: 40px;
-  border: 20px solid var(--primary-color);
+  border: 15px solid var(--primary-color);
   border-radius: 10px;
   max-width: 80%;
 }
@@ -166,6 +164,14 @@ p .description {
 .email-link:hover {
   color: var(--button-hover-background);
 }
+
+footer .container {
+  background: var(--primary-color);
+  margin-top: 140px;
+  padding: 40px 80px;
+  border-radius: 10px;
+}
+
 footer .contact-icons a {
   margin: 40px 20px;
   font-size: 18px;
@@ -177,13 +183,6 @@ footer .contact-icons a {
 footer .contact-icons a:hover {
   color: var(--third-color);
   background-color: var(--primary-color);
-}
-
-footer .container {
-  background: var(--primary-color);
-  margin-top: 140px;
-  padding: 40px 80px;
-  border-radius: 10px;
 }
 
 footer p {
@@ -238,19 +237,22 @@ footer p {
     height: auto;
     margin-top: 10px;
   }
-  @media (max-width: 576px) {
-    nav {
-      padding: 10px;
-    }
+}
+@media (max-width: 576px) {
+  nav {
+    padding: 10px;
+  }
 
-    nav ul {
-      display: block;
-      text-align: center;
-      font-size: 14px;
-    }
+  nav ul {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+  }
+  .img-project {
+    border: 10px solid var(--primary-color);
+  }
 
-    .open-source {
-      font-size: 14px;
-    }
+  .open-source {
+    font-size: 14px;
   }
 }
